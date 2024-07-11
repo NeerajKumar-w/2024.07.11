@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .content {
+        background-color: orange;
+      }
+      .box {
+        height: 500px;
+        width: 400px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        background-color: White;
+        border: none;
+        align-items: center;
+        border-radius: 20px;
+      }
+      .names {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+      }
+      img {
+        height: 50px;
+      }
+      .check {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="content">
+      <div class="box">
+        <h2>ACQUIOS</h2>
+        <div class="names">
+          <div class="inname">
+            <h6>First Name*</h6>
+            <input class="infield" type="" name="" value="" />
+          </div>
+          <div class="inname">
+            <h6>Last Name*</h6>
+            <input class="infield" type="" name="" value="" />
+          </div>
+        </div>
+        <div style="width: 100%; align-items: center margin-left:10px;">
+          <h6>E-mail</h6>
+          <input style="width: 90%" class="infield" type="" name="" value="" />
+        </div>
+        <div class="rating">
+          <p>How was your overall expereince?*</p>
+          <img
+            class="star"
+            src="https://w7.pngwing.com/pngs/694/571/png-transparent-rating-review-five-star-rating-five-star-review-feedback-customer-feedback-thumbnail.png"
+            alt=""
+          />
+        </div>
+        <h6>Was our representative(check all that apply)</h6>
+        <div class="check">
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+          <div class="tick">
+            <input type="checkbox" name="" value="" />
+            <p>some condition</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
